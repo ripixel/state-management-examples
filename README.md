@@ -30,7 +30,7 @@ Nope! These are examples, not production code!
 
 ## Is it live?
 
-Yes! It's on my personal website: [https://sme.ripixel.co.uk](https://sme.ripixel.co.uk)
+Yes: [https://state-management-examples.web.app/](https://state-management-examples.web.app/)
 
 ## Running locally
 
