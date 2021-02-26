@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ByJamesKing from '../ByJamesKing';
 
 import Heading from '../Heading';
 
@@ -11,6 +12,7 @@ export const Frame: React.FC = ({ children }) => (
       <Heading level={1} isTitle>
         State Management Examples in React
       </Heading>
+      <ByJamesKing />
     </Link>
     {children}
   </div>
