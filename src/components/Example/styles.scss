@@ -1,0 +1,32 @@
+.example {
+  padding: 1rem;
+  background-color: #ccf3f0;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.code {
+  font-size: 0.75rem;
+
+  pre {
+    margin-top: -0.5rem !important;
+  }
+}
+
+.showCode {
+  display: block;
+}
+
+.hideCode {
+  display: none;
+}
+
+.button {
+  font-size: 0.8rem;
+  background: #00ccbc;
+  padding: 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+}

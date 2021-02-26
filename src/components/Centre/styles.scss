@@ -1,0 +1,10 @@
+.centre {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 85vh;
+}
