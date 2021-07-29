@@ -1,3 +1,11 @@
 .p {
   padding: 1rem;
 }
+
+.p a {
+  color: #00ccbc;
+
+  &:hover {
+    color: #008f83;
+  }
+}

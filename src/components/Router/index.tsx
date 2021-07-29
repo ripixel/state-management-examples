@@ -1,10 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+import Frame from '../Frame';
+
 import Index from '../../pages/Index';
 import Ref from '../../pages/Ref';
 import Context from '../../pages/Context';
-import Frame from '../Frame';
+import State from '../../pages/State';
+import Redux from '../../pages/Redux';
+import Recoil from '../../pages/Recoil';
+import MobX from '../../pages/MobX';
 
 export const Router: React.FC = () => (
   <BrowserRouter>
@@ -17,19 +22,16 @@ export const Router: React.FC = () => (
           <Context />
         </Route>
         <Route path='/state'>
-          <Index />
-        </Route>
-        <Route path='/flux'>
-          <Index />
+          <State />
         </Route>
         <Route path='/redux'>
-          <Index />
+          <Redux />
         </Route>
         <Route path='/recoil'>
-          <Index />
+          <Recoil />
         </Route>
         <Route path='/mobx'>
-          <Index />
+          <MobX />
         </Route>
         <Route path='/'>
           <Index />
